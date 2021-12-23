@@ -1,0 +1,15 @@
+{
+    "manifest_version" : 2,
+    "name" : "Scribble Pad - Web Extension",
+    "version" : "1.0",
+    "description" : "Web Extension to take quick Notes",
+    "icons" : {
+        "128" : "img/scribblenote.png",
+        "48" : "img/scribblenote.png",
+        "16" : "img/scribblenote.png"
+    },
+    "browser_action" : {
+        "default_icon" : "img/scribblenote.png",
+        "default_popup" : "index.html"
+    }
+}
